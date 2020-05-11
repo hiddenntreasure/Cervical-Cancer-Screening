@@ -17,7 +17,7 @@ I don't take all 5000 images. I took only 2300 images as train data and 150 imag
 
 ## 3. Images preprocessing:
 
-Images had unwanted region which don't require. So,crop images manually using domain knowledge about the task. Or use image segmentation approach. Image segmentation by creating mask/annotation using domain knowledge and apply U-Net apporach.Or simply use max Hist algo. As image's most of the part is required for classification. Using Max Hist will automatically segment ROI.
+Images had unwanted region . So,crop images manually using domain knowledge about the task. Or use image segmentation approach. Image segmentation by creating mask/annotation using domain knowledge and apply U-Net like algo.Or simply use max Hist algo. As image's most of the part is required for classification. Using Max Hist will automatically segment ROI.
 
 ## 4. Model:
 
@@ -27,3 +27,4 @@ Images had unwanted region which don't require. So,crop images manually using do
 | VGG19 | block-5 Conv-1 | 88 | 87 | 50 | 0.58 |
 | DenseNet201 | No | 43 | 80 | 65 | 0.4257 |
 | DenseNet201 | block-21 conv-5 | 137 | 68 | 72 | 0.25 |
+| ResNet152 | No |  |  |  |
