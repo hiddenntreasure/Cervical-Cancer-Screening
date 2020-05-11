@@ -3,9 +3,9 @@ Competition arranged by Kaggle
 
 ## 1.Problem Description:
 
-AI is largely used in Medical sector.In near future AI will take an important part almost in all sectors.
+AI is largely used in Medical sector.In near future, AI will take an important part almost in all sectors.
 
-Colposcopy is used to detect cervical cancer/cin/lession . In this problem,we get image of three different stage. We need learn from images of three class and predict class of unseen images.
+Colposcopy is used to detect cervical cancer/cin/lession . In this problem image of three different class and need to learn from images and predict class of unseen images.
 
 ## 2.Dataset: 
  
@@ -24,6 +24,6 @@ Images had unwanted region which don't require. So,crop images manually using do
 | Model | Fine Tune | Epoch | Training Accuracy | Validation Accuracy | Loss |
 | --- | --- | --- | --- | --- | --- |
 | VGG19 | No | 68 | 83 | 72 | 0.2678 |
-| VGG19 | block-5 Conv-1 | 88 | 87 | 50 |  |
+| VGG19 | block-5 Conv-1 | 88 | 87 | 50 | 0.58 |
 | DenseNet201 | No | 43 | 80 | 65 | 0.4257 |
 | DenseNet201 | block-21 conv-5 | 137 | 68 | 72 | 0.25 |
