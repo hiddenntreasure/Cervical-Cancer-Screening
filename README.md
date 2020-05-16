@@ -27,4 +27,10 @@ Images had unwanted region . So,crop images manually using domain knowledge abou
 | VGG19 | block-5 Conv-1 | 88 | 87 | 50 | 0.58 |
 | DenseNet201 | No | 43 | 80 | 65 | 0.4257 |
 | DenseNet201 | block-21 conv-5 | 137 | 68 | 72 | 0.25 |
-| ResNet152 | No |  |  |  |
+| ResNet152 | No | 65 | 93 | 70 |
+
+## 5.With Full 8000 dataset without any preprocessing:
+
+| Model | Fine Tune | Epoch | Training Accuracy | Validation Accuracy | Loss |
+| --- | --- | --- | --- | --- | --- |
+| VGG19 | No | 141 | 93 | 72 | 0.3 |
