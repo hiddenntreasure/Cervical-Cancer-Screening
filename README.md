@@ -29,7 +29,7 @@ Images had unwanted region . So,crop images manually using domain knowledge abou
 | DenseNet201 | block-21 conv-5 | 137 | 68 | 72 | 0.25 |
 | ResNet152 | No | 65 | 93 | 70 | 0.4 |
 
-## 5.With Full 8000 dataset without any preprocessing:
+## 5.With Full 8000 images dataset without any preprocessing:
 
 | Model | Fine Tune | Epoch | Training Accuracy | Validation Accuracy | Loss |
 | --- | --- | --- | --- | --- | --- |
